@@ -1,3 +1,7 @@
+import React from 'react';
+import SearchBar from './SearchBar';
+import carsData from './db.json';
+import './CarApp.css';
 const CarApp = () => {
     const handleSearch = (params) => {
         // Filter carsData based on search parameters
